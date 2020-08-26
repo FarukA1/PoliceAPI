@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:key="hide_single_count"
+                      android:title="@string/darkMode"
+                      android:summary="This changes the color scheme of the app"
+                      android:defaultValue="false"/>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CustomiseReport">
+
+    <!--    <EditText-->
+    <!--            android:id="@+id/editTextLatitude"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="41dp"-->
+    <!--            android:layout_marginStart="16dp"-->
+    <!--            android:layout_marginEnd="10dp"-->
+    <!--            android:layout_marginBottom="21dp"-->
+    <!--            android:ems="10"-->
+    <!--            android:inputType="numberDecimal|numberSigned"-->
+    <!--            app:layout_constraintBottom_toTopOf="@+id/result"-->
+    <!--            app:layout_constraintEnd_toStartOf="@+id/editTextLongitude"-->
+    <!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--    <EditText-->
+    <!--            android:id="@+id/editTextLongitude"-->
+    <!--            android:layout_width="129dp"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:ems="10"-->
+    <!--            android:inputType="numberDecimal|numberSigned"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@+id/editTextLatitude"-->
+    <!--            app:layout_constraintTop_toTopOf="@+id/editTextLatitude"-->
+    <!--            tools:layout_editor_absoluteX="157dp" />-->
+
+    <!--    <Button-->
+    <!--            android:id="@+id/button"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="26dp"-->
+    <!--            android:layout_marginEnd="16dp"-->
+    <!--            android:onClick="reportPressed"-->
+    <!--            android:text="Run"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--    <TextView-->
+    <!--            android:id="@+id/result"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:layout_marginStart="20dp"-->
+    <!--            android:layout_marginTop="29dp"-->
+    <!--            android:layout_marginEnd="20dp"-->
+    <!--            android:layout_marginBottom="39dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/button" />-->
+
+    <!--    <ScrollView-->
+    <!--            android:id="@+id/scrollView2"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:layout_marginStart="12dp"-->
+    <!--            android:layout_marginEnd="12dp"-->
+    <!--            android:layout_marginBottom="13dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent">-->
+
+    <!--        <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:orientation="vertical">-->
+
+
+    <!--        </LinearLayout>-->
+    <!--    </ScrollView>-->
+
+
+    <EditText
+            android:id="@+id/editTextLatitude"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Latitude"
+            android:inputType="numberDecimal|numberSigned"
+            app:layout_constraintBottom_toTopOf="@+id/editTextLongitude"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+            android:id="@+id/editTextLongitude"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="26dp"
+            android:ems="10"
+            android:hint="Longitude"
+            android:inputType="numberDecimal|numberSigned"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextLatitude" />
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:onClick="reportPressed"
+            android:text="Run"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.173"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/editTextLongitude"/>
+
+    <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+            android:id="@+id/getLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:onClick="getLocation"
+            android:text="Get Your Location"
+            app:layout_constraintEnd_toEndOf="@+id/editTextLongitude"
+            app:layout_constraintTop_toBottomOf="@+id/editTextLongitude"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

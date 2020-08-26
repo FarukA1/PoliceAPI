@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Police Crime Records</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="button">Button</string>
+    <string name="code" />
+    <string name="name" />
+    <string name="edit" />
+    <string name="module">moduleCode</string>
+    <string name="moduleName">moduleName</string>
+    <string name="menu_edit">menu_edit</string>
+    <string name="menu_delete">menu_delete</string>
+    <string name="darkMode">dark mode</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="lat_long_snippet">Lat: %1$.5f, Long: %2$.5f</string>
+    <string name="dropped_pin">Dropped Pin</string>
+    <string name="poi">poi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="get_here">Get here</string>
+    <string name="stop_and_searches_by_area">Stop and searches by area</string>
+</resources>
